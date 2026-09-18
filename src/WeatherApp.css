@@ -1,0 +1,19 @@
+.title {
+    transition: 0.3s;
+}
+
+.title:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color:aqua;
+}
+.weatherApp {
+    min-height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+
+    background-image: url("https://images.openai.com/static-rsc-4/m2fHaNKcEU1U5_uERlhnNkBMjTs81jldVsfQb-dosfLb0KyP5U_VqD84bpgtBVkqO-DnBGyylw4uUsY94TwUaBH2eTJ5LGm-0ZK-KxzDJ9ZG682fCslhqRybwf_r59TZ9T0Ari1y3UfFS4zll0P9dfGXIzOa4w-XFiQaTL1G3Lc?purpose=inline");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
